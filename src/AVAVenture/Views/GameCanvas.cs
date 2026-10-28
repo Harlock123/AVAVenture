@@ -9,8 +9,8 @@ using AVAVenture.Engine;
 namespace AVAVenture.Views;
 
 /// <summary>
-/// The arcade screen: a fixed 1024×768 picture scaled to fit the window: the battle in the middle, with the
-/// score along the top and the dungeon below: its halls, or the room the adventurer is in. Runs the engine from a 60 Hz timer.
+/// The arcade screen: a fixed 1024×768 picture scaled to fit the window: the score, the treasures and the lives
+/// along the top, and the dungeon below: its halls, or the room the adventurer is in. Runs the engine from a 60 Hz timer.
 /// </summary>
 public sealed partial class GameCanvas : Control
 {
